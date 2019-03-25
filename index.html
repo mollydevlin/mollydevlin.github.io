@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>VCOM-H4001-WEB</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,8 +19,119 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world! I made a change</h1>
-
+    <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">VCOM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- https://getbootstrap.com/docs/4.0/layout/grid/ -->
+    <div class="container">
+      <!-- Row 1 Start -->
+      <div class="row">
+        <div class="col all-cols">
+            <h2>Row1, Column 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum pellentesque congue. Phasellus tempor semper varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque mattis commodo gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+        </div>
+        <div class="col all-cols">
+            <h2>Row 1, Column 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum pellentesque congue. Phasellus tempor semper varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque mattis commodo gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+        </div>
+      </div>
+      <!-- Row 1 End   -->
+      <!-- Row 2 Start -->
+      <div class="row">
+          <div class="col-md all-cols">
+              <h2>Row 2, Column 1</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum pellentesque congue. Phasellus tempor semper varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque mattis commodo gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+          </div>
+          <div class="col-md all-cols">
+              <h2>Row 2, Column 2</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum pellentesque congue. Phasellus tempor semper varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque mattis commodo gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+          </div>
+          <div class="col-md all-cols">
+              <h2>Row 2, Column 3</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum pellentesque congue. Phasellus tempor semper varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque mattis commodo gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+          </div>
+      </div>
+      <!-- Row 2 End   -->
+      <!-- Row 3 Start -->
+      <div class="row">
+          <div class="col-8 all-cols">
+              <h2>Row 3, Column 1</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum pellentesque congue. Phasellus tempor semper varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque mattis commodo gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+          </div>
+          <div class="col-4 all-cols">
+              <h2>Row 3, Column 2</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum pellentesque congue. Phasellus tempor semper varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque mattis commodo gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+          </div>
+      </div>
+      <!-- Row 3 End   -->
+      <!-- Row 4 Start -->
+      <div class="row">
+          <div class="col all-cols">
+              <h2>Row 4, Column 1</h2>
+              <img src="img/foo.jpg" class="img-fluid float-right" id="img-foo" alt="Responsive image">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu nibh convallis, placerat ipsum vel, fermentum dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eros erat, congue ut aliquet et, varius id orci. Donec lacinia fermentum massa, quis gravida magna. Aenean vitae tortor sapien. Donec varius finibus lacus id mollis. Duis aliquam varius ultrices. Vestibulum ut velit quis ipsum euismod scelerisque et nec tellus. Nullam elementum sapien nulla, viverra vestibulum orci tincidunt a.
+                Aliquam eget ultrices dolor, eget porta sem. Vestibulum aliquam, nunc at pulvinar luctus, augue justo aliquet metus, vitae dictum enim urna et orci. Mauris at dui et diam tempor interdum. Ut feugiat a nisl vel aliquet. Proin blandit magna sit amet dui gravida rhoncus. Ut facilisis fermentum justo, cursus molestie lorem aliquet id. Integer commodo malesuada velit non dictum. Proin molestie fermentum nunc, ornare convallis risus ultricies at.
+                Nam enim tortor, blandit a bibendum vel, mollis vitae lacus. Vestibulum elementum sem sit amet laoreet eleifend. Curabitur sit amet felis vel elit vestibulum hendrerit. Morbi sagittis, justo et rutrum accumsan, nunc felis consectetur magna, ac scelerisque nunc risus ut metus. Fusce id fringilla nisi, et luctus sapien. Nulla facilisi. Nullam ultricies lorem et dolor gravida sodales. Maecenas volutpat leo nulla, eget sagittis risus dignissim eu. In rutrum pellentesque dolor, in ullamcorper nisl laoreet ac. Suspendisse tincidunt nec turpis nec accumsan. Pellentesque quis felis eu nibh consectetur vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sed lorem malesuada, auctor sapien vel, auctor nunc.
+                Vivamus ut ipsum aliquet, blandit neque a, malesuada velit. Nulla facilisi. In congue, sem sed luctus sagittis, arcu neque semper diam, a placerat leo urna vel nibh. Donec et porta metus. Proin pharetra lobortis mi eget lacinia. Nam bibendum finibus turpis, sit amet tristique ante laoreet vitae. Quisque non ultrices erat. Quisque nec iaculis purus.
+                Donec vitae porttitor turpis. In laoreet nec tellus a hendrerit. Integer quis cursus sapien. Curabitur auctor tristique arcu, eget condimentum dui auctor non. Etiam varius dolor quam. Quisque pellentesque dictum maximus. Praesent lectus mauris, pulvinar sed iaculis at, auctor at arcu. Nulla consectetur magna ac mi rutrum, vitae vehicula erat aliquam. Suspendisse potenti. Nulla consectetur, nunc at feugiat aliquet, orci risus pretium odio, at accumsan felis leo in nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam eros erat, interdum ac metus vel, elementum molestie arcu.
+              </p>
+          </div>
+      </div>
+      <!-- Row 4 End   -->
+      <!-- Row 5 Start -->
+      <div class="row">
+          <div class="col-sm-3 all-cols">
+              <img src="https://i.pinimg.com/originals/03/30/16/0330168f9f7b08a7b35c0553f27490f3.jpg" class="img-fluid" id="img-got" alt="Responsive image">
+          </div>
+          <div class="col-sm-9 all-cols">
+              <h2>Row 5, Column 2</h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu nibh convallis, placerat ipsum vel, fermentum dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eros erat, congue ut aliquet et, varius id orci. Donec lacinia fermentum massa, quis gravida magna. Aenean vitae tortor sapien. Donec varius finibus lacus id mollis. Duis aliquam varius ultrices. Vestibulum ut velit quis ipsum euismod scelerisque et nec tellus. Nullam elementum sapien nulla, viverra vestibulum orci tincidunt a.
+                  Aliquam eget ultrices dolor, eget porta sem. Vestibulum aliquam, nunc at pulvinar luctus, augue justo aliquet metus, vitae dictum enim urna et orci. Mauris at dui et diam tempor interdum. Ut feugiat a nisl vel aliquet. Proin blandit magna sit amet dui gravida rhoncus. Ut facilisis fermentum justo, cursus molestie lorem aliquet id. Integer commodo malesuada velit non dictum. Proin molestie fermentum nunc, ornare convallis risus ultricies at.
+                  Nulla facilisi. Donec vitae porttitor turpis. In laoreet nec tellus a hendrerit. Integer quis cursus sapien. Curabitur auctor tristique arcu, eget condimentum dui auctor non. Etiam varius dolor quam. Quisque pellentesque dictum maximus. Praesent lectus mauris, pulvinar sed iaculis at, auctor at arcu. Nulla consectetur magna ac mi rutrum, vitae vehicula erat aliquam. Suspendisse potenti. Nulla consectetur, nunc at feugiat aliquet, orci risus pretium odio, at accumsan felis leo in nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam eros erat, interdum ac metus vel, elementum molestie arcu.
+              </p>
+          </div>
+      </div>
+      <!-- Row 5 End   -->
+      <!-- Row 6 Start -->
+      <div class="row justify-content-around">
+          <div class="col-sm-4 all-cols">
+              <h2>Row 6, Column 1</h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu nibh convallis, placerat ipsum vel, fermentum dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eros erat, congue ut aliquet et, varius id orci. Donec lacinia fermentum massa, quis gravida magna. Aenean vitae tortor sapien. Donec varius finibus lacus id mollis. Duis aliquam varius ultrices. Vestibulum ut velit quis ipsum euismod scelerisque et nec tellus. Nullam elementum sapien nulla, viverra vestibulum orci tincidunt a.
+                  Aliquam eget ultrices dolor, eget porta sem. Vestibulum aliquam, nunc at pulvinar luctus, augue justo aliquet metus, vitae dictum enim urna et orci. Mauris at dui et diam tempor interdum. Ut feugiat a nisl vel aliquet. Proin blandit magna sit amet dui gravida rhoncus. Ut facilisis fermentum justo, cursus molestie lorem aliquet id. Integer commodo malesuada velit non dictum. Proin molestie fermentum nunc, ornare convallis risus ultricies at.
+                  Nulla facilisi. Donec vitae porttitor turpis. In laoreet nec tellus a hendrerit. Integer quis cursus sapien. Curabitur auctor tristique arcu, eget condimentum dui auctor non. Etiam varius dolor quam. Quisque pellentesque dictum maximus. Praesent lectus mauris, pulvinar sed iaculis at, auctor at arcu. Nulla consectetur magna ac mi rutrum, vitae vehicula erat aliquam. Suspendisse potenti. Nulla consectetur, nunc at feugiat aliquet, orci risus pretium odio, at accumsan felis leo in nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam eros erat, interdum ac metus vel, elementum molestie arcu.
+              </p>
+          </div>
+          <div class="col-sm-4 all-cols">
+              <h2>Row 6, Column 2</h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu nibh convallis, placerat ipsum vel, fermentum dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eros erat, congue ut aliquet et, varius id orci. Donec lacinia fermentum massa, quis gravida magna. Aenean vitae tortor sapien. Donec varius finibus lacus id mollis. Duis aliquam varius ultrices. Vestibulum ut velit quis ipsum euismod scelerisque et nec tellus. Nullam elementum sapien nulla, viverra vestibulum orci tincidunt a.
+                  Aliquam eget ultrices dolor, eget porta sem. Vestibulum aliquam, nunc at pulvinar luctus, augue justo aliquet metus, vitae dictum enim urna et orci. Mauris at dui et diam tempor interdum. Ut feugiat a nisl vel aliquet. Proin blandit magna sit amet dui gravida rhoncus. Ut facilisis fermentum justo, cursus molestie lorem aliquet id. Integer commodo malesuada velit non dictum. Proin molestie fermentum nunc, ornare convallis risus ultricies at.
+                  Nulla facilisi. Donec vitae porttitor turpis. In laoreet nec tellus a hendrerit. Integer quis cursus sapien. Curabitur auctor tristique arcu, eget condimentum dui auctor non. Etiam varius dolor quam. Quisque pellentesque dictum maximus. Praesent lectus mauris, pulvinar sed iaculis at, auctor at arcu. Nulla consectetur magna ac mi rutrum, vitae vehicula erat aliquam. Suspendisse potenti. Nulla consectetur, nunc at feugiat aliquet, orci risus pretium odio, at accumsan felis leo in nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam eros erat, interdum ac metus vel, elementum molestie arcu.
+              </p>
+          </div>
+      </div>
+      <!-- Row 6 End   -->
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
