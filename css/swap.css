@@ -1,0 +1,237 @@
+/*
+body {
+	background-color: orange;
+	margin: 50px auto;
+	box-sizing: border-box;
+}
+*/
+
+/* Make the container relative */
+/*
+.swap-on-hover {
+  position: relative;	
+	margin:  0 auto;
+	max-width: 400px;
+}
+*/
+
+/* Select the image and make it absolute to the container */
+/*
+.swap-on-hover img {
+  position: absolute;
+  top:0;
+  left:0;
+	overflow: hidden;
+	 Sets the width and height for the images
+	width: 400px;
+	height: 400px;
+}
+*/
+
+/* 
+	We set z-index to be higher than the back image, so it's alwyas on the front.
+
+We give it an opacity leaner to .25s, that way when we hover we will get a nice fading effect. 
+*/
+.swap-on-hover .swap-on-hover__front-image {
+  z-index: 9999;
+  transition: opacity .3s linear;
+  cursor: pointer;
+}
+
+/* When we hover the figure element, the block with .swap-on-hover, we want to use > so the front-image is going to have opacity of 0, which means it will be hidden, to the back image will show */
+.swap-on-hover:hover > .swap-on-hover__front-image{
+  opacity: 0;
+}
+
+
+
+.container-fluid {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+ 
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: 00ad24;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .s ease;
+  opacity: 1;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background-color: deeppink;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .s ease;
+  opacity: 1;
+}
+.overlay3 {
+  position:absolute;
+  bottom: 100%;
+  left: 0;
+  right:0;
+  background-color: #739c92;
+  overflow:hidden;
+  width:100%;
+  height:0;
+  transition: .5s ease;
+}
+.overlay4
+{
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  left: 100%;
+  background-color: #739c92;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 1;
+}
+.overlay5
+{
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  left: 0%;
+  background-color: #739c92;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 1;
+}
+.overlayhover:hover .overlay5 {
+  width: 100%;
+  left: 0;
+  opacity: 0.9;
+}
+
+.overlay6
+{
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  left: 100%;
+  background-color: #ed2a7b;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 1;
+  
+}
+.overlayhover:hover .overlay6 {
+  width: 100%;
+  left: 0;
+  opacity: 0.9;
+}
+
+
+
+
+.overlayhover:hover .overlay {
+  width: 100%;
+  left: 0;
+  opacity: 0.9;
+}
+.overlayhover:hover .overlay4 {
+  width: 100%;
+  left: 0;
+  opacity: 0.9;
+}
+
+
+.overlayhover:hover .overlay2 {
+  width: 100%;
+  left: 0;
+  opacity: 0.9;
+}
+.overlayhover:hover .overlay3 {
+  bottom: 0;
+
+  height: 100%;
+  opacity: 0.9;
+}
+
+
+.text {
+  color: white;
+  font-family: 'Aktiv Grotesk';
+  font-weight: 500;
+  font-size: 32px;
+  position:relative;
+  top: 30%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  opacity: 1;
+}
+.textbw {
+  color: white;
+  font-family: 'Aktiv Grotesk';
+  font-weight: 500;
+  font-size: 32px;
+  position:relative;
+  top: 30%;
+  left: 60%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  opacity: 1;
+    line-height: 34px;
+}
+#work:hover{
+    color: aqua;
+}
+.aboutmoi
+{
+    padding-top:;
+    padding-bottom: 70px;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Aktiv Grotesk';
+}
+.textabout {
+  color: white;
+  font-family: 'Aktiv Grotesk';
+  font-weight: 500;
+  font-size: 32px;
+  position:absolute;
+  top: 50%;
+  left: 30%;
+ right: 20%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  opacity: 1;
+}
+
+/*
+.container:hover .overlay {
+  opacity: 0.5;
+}
+*/

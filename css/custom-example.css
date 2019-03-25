@@ -1,0 +1,439 @@
+/*
+Custom CSS
+*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.h1
+{
+  font-size: 16px;
+    font-family: 'Aktiv Grotesk';
+    font-weight: 400;
+}   
+}
+body{
+
+  padding-top: 100px;
+    font-family: 'Aktiv Grotesk'
+}
+.landingparagraph
+{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Aktiv Grotesk';
+}
+p
+{
+    font-size: 24px;
+    font-family: 'Aktiv Grotesk';
+    font-weight: 400;
+    
+}
+.isoletters{
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+.motyfbook
+{
+padding-top: 10px; 
+padding-bottom: 10px;
+}
+.content{
+  font-weight: 300;
+    font-family: 'Aktiv Grotesk';
+    font-size: 16px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: 8d8d8b;
+}
+.buildings
+{
+    padding-top: -500px;
+}
+.motyfposter
+{
+    padding-bottom: -30px;
+    
+}
+
+.motyfcolor:hover {
+
+    display: block;
+    
+}
+
+.motyfhome {
+    
+    display: block;
+   
+}
+.photogif
+{
+   padding-bottom: 60px;  
+}
+.webplaceholderBW
+{
+ padding-top: 20px; 
+}
+.bwposter
+{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+.trypadding {
+    
+    padding-left: 15px;
+}
+
+
+.BWmotiongif
+{
+padding-top: 10px;
+padding-bottom: 20px;
+}
+.ogmotiongif
+{
+ padding-top: 80px;  
+ 
+}
+.windowog
+{
+padding-top: 10px;     
+}
+.megiff
+{
+padding-top: -10px;
+    opacity: 1;
+/*padding-top: -30px;*/
+/*padding-left: -100px;*/
+
+}
+textovergiff
+{
+ padding-top: 170px;    
+}
+.frames
+{
+padding-top: 10px;
+}
+.packaging{
+    margin-top: -60px;
+}
+.BWinsta
+{
+    padding-top: 50px;;
+    
+}
+.nextpage
+{
+    padding-top: 100px
+}
+/*
+.oghome {
+	display: block;
+	background-image: url(../img/homeimg/greenhover.jpg) bottom;
+	text-indent: -99999px;
+    
+}
+.oghome:hover {
+    opacity: 0%;
+	background-position: 0 0;
+    transition: .5s ease;
+    background-image: 100;
+}
+*/
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+ 
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: limegreen;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 1;
+}
+
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: hotpink;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 1;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-family: 'Aktiv Grotesk';
+  font-weight: 800;
+  font-size: 32px;
+  position:relative;
+  top: 30%;
+  left: 60%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  opacity: 1;
+ line-height: 34px;
+}
+.ticket{
+    
+    padding-top: 45px;
+}
+.motyfweb{
+    padding-top: 20px;
+}
+.motyfposter
+{
+    padding-top: -30px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    
+    
+}
+.illustraions{
+    padding-right: 50px;
+   
+}
+.busstop
+{
+    padding-top: 10px;
+}
+.homelanding
+{
+    padding-left: 90px;
+}
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-20%, -30%);
+    font-family: 'Aktiv Grotesk';
+    font-weight: 300;
+    font-size: 28px;
+    color: 8d8d8b;
+    line-height: 34px;
+}
+.motyfapps
+{
+    padding-bottom: 70px;
+}
+.ogapps
+{
+  padding-bottom: 70px;   
+}
+.oginsta{
+ padding-top: 45px;   
+}
+.bwdetails
+{
+    
+}
+.contactgif{
+    padding-left: 10px;
+    padding-top: 80px;
+}
+.finalmotion{
+    padding-top: -40px
+}
+
+.motionfinal{
+    padding-top: -60px;
+}
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*
+.swap-on-hover {
+  position: relative;	
+	margin:  0 auto;
+	max-width: 400px;
+}
+*/
+
+/* Select the image and make it absolute to the container */
+/*
+.swap-on-hover img {
+  position: absolute;
+  top:0;
+  left:0;
+	overflow: hidden;
+	 Sets the width and height for the images
+	width: 400px;
+	height: 400px;
+}
+*/
+
+/* 
+	We set z-index to be higher than the back image, so it's alwyas on the front.
+
+We give it an opacity leaner to .25s, that way when we hover we will get a nice fading effect. 
+*/
+/*
+.swap-on-hover .swap-on-hover__front-image {
+  z-index: 9999;
+  transition: opacity .3s linear;
+  cursor: pointer;
+}
+*/
+
+/* When we hover the figure element, the block with .swap-on-hover, we want to use > so the front-image is going to have opacity of 0, which means it will be hidden, to the back image will show */
+/*
+.swap-on-hover:hover > .swap-on-hover__front-image{
+  opacity: 0;
+}
+ 
+*/
+/*
+.oghome
+{
+
+    background-image: url(../img/homeimg/greenhover.jpg);
+    background-position: 0 0;
+}
+.oghome:hover
+{
+background-position: 0 100%;
+transition: .5s ease;
+
+}
+*/
+
+
+
+/*
+.oghome:hover
+{
+color: black;    
+}
+*/
+
+/*
+.ogoverlay
+{ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+*/
+
+/*
+.oghome:hover{
+     content:"";
+     display:block;
+     background-size:100%;
+     background-image:url(../img/homeimg/greenhover.jpg);
+
+      width: 100%;
+*/
+    /*  opacity: 0;*/
+/*      transition: .5s ease;*/
+/*      background-color: #008CBA;*/
+}
+/*        background-image: url(../img/homeimg/greenhover.jpg);*/
+	
+/*
+.oghome
+{
+ width: 100%;
+ height: 100%;
+ background-image: url('../img/homeimg/ogimage.jpg');
+ 
+}
+.oghome:hover
+{
+background-image: url('../img/homeimg/greenhover.jpg');    
+}
+*/
+
+/*
+oghome:hover .overlay {
+  position:absolute;
+  width: 48px;
+  height: 48px;
+  z-index: 100;
+  background-image:url('../img/homeimg/greenhover.jpg')no-repeat;
+  cursor: pointer;
+}
+*/
+
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+/*
+@media(max-width:576px){
+  div[class^="col"]{
+    border-style: solid;
+    border-color:black;
+  }
+}
+
+ Apply these rules if the screen width is GREATER than 576px 
+*/
+
+
+
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+
+}
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+
+
+}
+/*
+body{
+  background-color: gray;
+   Stops the body from going under the navbar 
+  padding-top: 65px;
+}
+*/
+
+/*
+.all-cols{
+  border-style: solid;
+}
+*/
+
+
